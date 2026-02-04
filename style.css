@@ -1,0 +1,117 @@
+:root {
+  --bg-color: #0a0a12;
+  --card-bg: #1c1c2e;
+  --text-main: #e0e0e0;
+  --text-muted: #a0a0b0;
+  --accent-electric: #00f3ff;
+  --accent-gold: #ffd700;
+  --font-heading: 'Georgia', 'Times New Roman', serif;
+  --font-body: 'Arial', sans-serif;
+}
+body {
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    font-family: var(--font-body);
+    line-height: 1.6;
+    text-align: center;
+}
+header {
+    padding: 40px 20px;
+    background: linear-gradient(180deg, rgba(0,243,255,0.05) 0%, rgba(10,10,18,0) 100%);
+}
+h1 {
+    font-family: var(--font-heading);
+    font-size: 3rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--text-main);
+    text-shadow: 0 0 10px rgba(0, 243, 255, 0.5);
+    margin-bottom: 10px;
+}
+h4 {
+    font-weight: 300;
+    color: var(--text-muted);
+    font-style: italic;
+    max-width: 600px;
+    margin: 0 auto;
+}
+#img-div {
+  background-color: var(--card-bg);
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 8px;
+  max-width: 800px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+  border: 1px solid #333;
+}
+#image {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 4px;
+  filter: sepia(20%);
+}
+#img-caption {
+  margin-top: 15px;
+  color: var(--accent-electric);
+  font-size: 0.9rem;
+}
+#tribute-info {
+  max-width: 800px;
+  margin: 40px auto;
+  text-align: left;
+  padding: 0 20px;
+}
+ul {
+  list-style: none;
+  border-left: 2px solid var(--accent-electric);
+  padding-left: 20px;
+}
+li {
+  margin-bottom: 20px;
+  position: relative;
+}
+li strong {
+  color: var(--accent-gold);
+  font-family: var(--font-heading);
+  font-size: 1.1rem;
+  display: block;
+}
+blockquote {
+  font-family: var(--font-heading);
+  font-size: 1.4rem;
+  font-style: italic;
+  margin: 40px auto;
+  max-width: 600px;
+  color: var(--text-main);
+  border-left: 5px solid var(--accent-gold);
+  padding-left: 15px;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 20px;
+  border-radius: 0 10px 10px 0;
+}
+cite {
+  display: block;
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: var(--accent-electric);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+footer {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: var(--card-bg);
+  font-size: 0.8rem;
+}
+#tribute-link {
+  color: var(--accent-electric);
+  text-decoration: none;
+  font-weight: bold;
+  border-bottom: 1px dashed var(--accent-electric);
+}
+#tribute-link:hover {
+  color: var(--text-main);
+  border-bottom-style: solid;
+}
